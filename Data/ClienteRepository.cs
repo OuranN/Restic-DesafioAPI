@@ -17,20 +17,19 @@ namespace MinhaApi.Data{
         {
             return _context.Cliente.ToList();
         }
-           // Método para obter um cliente pelo ID
+
         public Cliente GetById(int id)
         {
             return _context.Cliente.FirstOrDefault(c => c.id_Cliente == id);
         }
 
-        // Método para atualizar um cliente
+
         public void update(Cliente cliente)
         {
             _context.Cliente.Update(cliente);
             _context.SaveChanges();
         }
 
-        // Método para excluir um cliente
         public void delete(int id)
         {
             var cliente = GetById(id);

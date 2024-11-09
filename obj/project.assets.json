@@ -2606,11 +2606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Área de Trabalho\\API\\MinhaApi\\MinhaApi.csproj",
+      "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Área de Trabalho\\API\\Restic-DesafioAPI\\MinhaApi.csproj",
       "projectName": "MinhaApi",
-      "projectPath": "C:\\Users\\crist\\OneDrive\\Área de Trabalho\\API\\MinhaApi\\MinhaApi.csproj",
+      "projectPath": "C:\\Users\\crist\\OneDrive\\Área de Trabalho\\API\\Restic-DesafioAPI\\MinhaApi.csproj",
       "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crist\\OneDrive\\Área de Trabalho\\API\\MinhaApi\\obj\\",
+      "outputPath": "C:\\Users\\crist\\OneDrive\\Área de Trabalho\\API\\Restic-DesafioAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config"

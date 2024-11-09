@@ -29,7 +29,7 @@ namespace MinhaApi.Controllers{
 
       return Ok(clientes);
     }
-   // Método GET para obter um cliente pelo ID
+
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -41,7 +41,7 @@ namespace MinhaApi.Controllers{
             return Ok(cliente);
         }
 
-        // Método PUT para atualizar um cliente
+
         [HttpPut("{id}")]
         public IActionResult Update(int id, ClienteViewModel clienteView)
         {
@@ -56,7 +56,7 @@ namespace MinhaApi.Controllers{
             return NoContent();
         }
 
-        // Método DELETE para excluir um cliente
+
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
